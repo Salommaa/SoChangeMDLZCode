@@ -153,7 +153,7 @@ if ppl_file is not None and so_folder:
                     # ---------------------------------
                     # Count
                     # ---------------------------------
-                    file_count = mask.sum()
+                    file_count = mask.nunique()
                     total_count += file_count
 
 
